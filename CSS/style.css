@@ -1,0 +1,72 @@
+/* CSS Stylesheet */
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+.navbar-brand{
+    margin-left:0px;
+    padding: 1px;
+    font: italic 3em uppercase;
+    text-align: left;
+    vertical-align: middle;
+    border-color: "white";
+  }
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1, h3{
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  height: auto;
+  display: flex;
+  margin: 5px;
+  background-color: #C0C0C0;
+  padding: 0px;
+}
+
+.text-center{
+  display: inline;
+  text-size: 20px;
+  margin: 5px;
+}
+
+
+.header-container{
+  margin: 5px;
+}
+
+
+.text-thin{
+  font-weight: 200;
+}
+
+hr {
+  border:0;
+  border-top: 1px solid ;
+  margin:10px;
+
+}
+
+img {
+  margin: auto;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #A9A9A9;
+  text-align: center;
+  }
